@@ -1,4 +1,8 @@
 <?php
 require "vendor/autoload.php";
-require "data/tododata.php";
-require_once 'view/index.view.php';
+use ToDo\Request;
+use ToDo\Router;
+require Router::load('routes.php')
+    ->direct(Request::uri());
+
+//echo $_SERVER['REQUEST_URI'];

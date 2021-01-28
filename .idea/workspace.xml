@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a22e4444-4f7d-48ca-a078-ea3a3241416e" name="Default Changelist" comment="" />
+    <list default="true" id="a22e4444-4f7d-48ca-a078-ea3a3241416e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/edit-task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/new-task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/pages/404.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/pages/edit-task.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/pages/home.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/pages/new-task.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oop_klases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop_klases.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -17,7 +54,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1naxViI70HJss9ohgFfvl6FSw58" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,21 +87,41 @@
       <option name="presentableId" value="Default" />
       <updated>1611642029084</updated>
       <workItem from="1611642030729" duration="187000" />
-      <workItem from="1611647565423" duration="4439000" />
+      <workItem from="1611647565423" duration="5466000" />
+      <workItem from="1611814724173" duration="21491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="610" y="161" key="FileChooserDialogImpl" timestamp="1611642204272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="610" y="161" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611642204272" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611649057951">
+    <state x="961" y="134" key="NewPhpClassDialog" timestamp="1611815136331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1611649057951" />
+    <state x="961" y="134" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1611815136331" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611814970208">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1611814970208" />
+    <state x="694" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611823571596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="694" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611823571596" />
   </component>
 </project>
