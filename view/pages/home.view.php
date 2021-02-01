@@ -1,4 +1,4 @@
-<?php session_start();
+<?php
 require 'view/_partials/htmlhead.php'; ?>
 <?php if (isset($_SESSION['message'])): ?>
     <div class="alert alert-<?= $_SESSION['msg_type'] ?>">

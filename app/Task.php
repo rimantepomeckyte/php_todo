@@ -24,6 +24,10 @@ class Task
         $this->priority = $task['priority'];
         $this->dueDate = $task['duedate'];
         $this->insertTask();
+       /* $_SESSION['new_task']=[
+            $this->subject
+
+        ];*/
     }
 
     private function insertTask()

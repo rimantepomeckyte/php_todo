@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 use ToDo\DB;
 use ToDo\Task;
 

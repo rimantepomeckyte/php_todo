@@ -22,13 +22,14 @@ ir status:
             </div>*/
 
 ?>
-<?php require 'view/_partials/htmlhead.php'; ?>
-<?php foreach ($validation as $errors): ?>
-    <div class="alert alert-danger m-2" role="alert">
-        <?= $errors; ?>
-    </div>
-<?php endforeach; ?>
-<?php require  'view/_partials/header.php';?>
+<?php require 'view/_partials/htmlhead.php';
+?>
+<?php if (!empty($validate)): ?>
+    <?php foreach ($validate as $error): ?>
+        <div class="alert alert-danger"><?= $error; ?></div>
+    <?php endforeach; ?>
+<?php endif; ?>
+<?php require 'view/_partials/header.php'; ?>
 <div class="container-fluid pt-2">
     <p class="col-md-2 col-4 offset-md-1"><a href="/to_do_list" class="btn btn-success font-weight-bold">Back to tasks
             list</a></p>
