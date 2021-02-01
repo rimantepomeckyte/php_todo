@@ -20,29 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22e4444-4f7d-48ca-a078-ea3a3241416e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/complete-task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/delete-task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/_partials/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/_partials/htmlend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/_partials/htmlhead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/edit-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/edit-task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/new-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/new-task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tododata.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/tododata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/pages/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/home.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pages/new-task.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/new-task.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +76,7 @@
       <workItem from="1611814724173" duration="46411000" />
       <workItem from="1611927213963" duration="13206000" />
       <workItem from="1612031216413" duration="2463000" />
-      <workItem from="1612166542534" duration="1438000" />
+      <workItem from="1612166542534" duration="4073000" />
     </task>
     <servers />
   </component>

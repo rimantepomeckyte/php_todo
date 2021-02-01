@@ -26,7 +26,6 @@ require 'view/_partials/htmlhead.php'; ?>
                 <th scope="col">Status</th>
                 <th scope="col">Created</th>
                 <th scope="col"><i class="fas fa-arrow-circle-down "></i></th>
-                <!--  <th scope="col"><i class="fas fa-arrow-circle-down "></i></th>-->
                 <th scope="col"><i class="fas fa-arrow-circle-down "></i></th>
             </tr>
             </thead>
@@ -34,37 +33,52 @@ require 'view/_partials/htmlhead.php'; ?>
 
             <?php foreach ($tasks->allTasks() as $task): ?>
                 <tr>
-                    <td class="align-middle"><i class="fas fa-thumbtack"></i></td>
                     <?php if ($task['status'] == "1"): ?>
-                <td class="align-middle" style="text-decoration: line-through;"><?= ucfirst($task['subject']); ?>
-                <?php else: ?>
-                    <td class="align-middle font-weight-bold"><?= ucfirst($task['subject']); ?>
-                        <?php endif; ?>
+                        <td class="align-middle"><i class="fas fa-thumbtack" style="opacity: 0.5"></i></td>
+                        <td class="align-middle"
+                            style="text-decoration: line-through;"><?= ucfirst($task['subject']); ?>
                         <?php if ($task['priority'] == "low"): ?>
-                    <td class="d-flex justify-content-center pt-2"><p
-                                class="text-center border rounded-pill bg-success w-100 mb-0"><?= ucfirst($task['priority']); ?></p>
-                    </td>
-                <?php elseif ($task['priority'] == "normal"): ?>
-                    <td class="d-flex justify-content-center pt-2"><p
-                                class="text-center border rounded-pill bg-warning w-100 mb-0"><?= ucfirst($task['priority']); ?></p>
-                    </td>
-                <?php elseif ($task['priority'] == "high"): ?>
-                    <td class="d-flex justify-content-center pt-2"><p
-                                class="text-center border rounded-pill bg-danger w-100 mb-0"><?= ucfirst($task['priority']); ?></p>
-                    </td>
-                <?php endif; ?>
-                    <td class="align-middle"><?= $task['dueDate']; ?></td>
-                    <?php if ($task['status'] == "1"): ?>
+                            <td class="d-flex justify-content-center pt-2"><p
+                                        class="text-center border rounded-pill bg-success w-100 mb-0 text-secondary"
+                                        style="opacity: 0.5"><?= ucfirst($task['priority']); ?></p>
+                            </td>
+                        <?php elseif ($task['priority'] == "normal"): ?>
+                            <td class="d-flex justify-content-center pt-2"><p
+                                        class="text-center border rounded-pill bg-warning w-100 mb-0 text-secondary"
+                                        style="opacity: 0.5;"><?= ucfirst($task['priority']); ?></p>
+                            </td>
+                        <?php elseif ($task['priority'] == "high"): ?>
+                            <td class="d-flex justify-content-center pt-2"><p
+                                        class="text-center border rounded-pill bg-danger w-100 mb-0 text-secondary"
+                                        style="opacity: 0.5;"><?= ucfirst($task['priority']); ?></p>
+                            </td>
+                        <?php endif; ?>
+                        <td class="align-middle text-secondary"><?= $task['dueDate']; ?></td>
                         <td class="align-middle text-success font-weight-bold">Complete</td>
+                        <td class="align-middle text-secondary"><?= $task['modified']; ?></td>
                     <?php else: ?>
-                        <td class="align-middle text-secondary font-weight-bold">In progress</td>
+                        <td class="align-middle"><i class="fas fa-thumbtack"></i></td>
+                        <td class="align-middle font-weight-bold"><?= ucfirst($task['subject']); ?>
+                        <?php if ($task['priority'] == "low"): ?>
+                            <td class="d-flex justify-content-center pt-2"><p
+                                        class="text-center border rounded-pill bg-success w-100 mb-0"><?= ucfirst($task['priority']); ?></p>
+                            </td>
+                        <?php elseif ($task['priority'] == "normal"): ?>
+                            <td class="d-flex justify-content-center pt-2"><p
+                                        class="text-center border rounded-pill bg-warning w-100 mb-0"><?= ucfirst($task['priority']); ?></p>
+                            </td>
+                        <?php elseif ($task['priority'] == "high"): ?>
+                            <td class="d-flex justify-content-center pt-2"><p
+                                        class="text-center border rounded-pill bg-danger w-100 mb-0"><?= ucfirst($task['priority']); ?></p>
+                            </td>
+                        <?php endif; ?>
+                        <td class="align-middle font-weight-bold"><?= $task['dueDate']; ?></td>
+                        <td class="align-middle font-weight-bold">In progress</td>
+                        <td class="align-middle font-weight-bold"><?= $task['modified']; ?></td>
                     <?php endif; ?>
-                    <td class="align-middle"><?= $task['modified']; ?></td>
                     <td class="align-middle"><a href="complete-task/id/<?= $task['id']; ?>"
                                                 class="btn btn-success">Done</a>
                     </td>
-                    <!--  <td class="align-middle"><a href="edit-task/id/<?= $task['id']; ?>" class="btn btn-info">Edit</a>
-                    </td> -->
                     <td class="align-middle"><a href="delete-task/id/<?= $task['id']; ?>"
                                                 class="btn btn-danger">Delete</a>
                     </td>
