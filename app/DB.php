@@ -26,12 +26,9 @@ class DB
               self::$password,
               self::$options);
 
-            /*return new PDO(
-                self::$connections . ';dbname =' . self::$database, // .';charset=utf8mb4', (vietoj kablelio)
-                self::$user,
-                self::$password,
-                self::$options
-            );*/
+            /*return $pdo= new PDO(self::$connections .';dbname=' .self::$database, self::$user, self::$password);
+                     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);*/
+
         } catch (PDOException $e) {//jei nepavyksta pagauna klaida
             die($e->getMessage());
         }

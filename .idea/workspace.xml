@@ -20,30 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22e4444-4f7d-48ca-a078-ea3a3241416e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/edit-task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/new-task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/pages/404.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/pages/edit-task.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/pages/home.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/pages/new-task.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oop_klases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop_klases.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/complete-task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/delete-task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/_partials/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/_partials/htmlend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/_partials/htmlhead.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/edit-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/edit-task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/new-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/new-task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tododata.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/tododata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/home.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/pages/new-task.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/new-task.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -88,7 +94,10 @@
       <updated>1611642029084</updated>
       <workItem from="1611642030729" duration="187000" />
       <workItem from="1611647565423" duration="5466000" />
-      <workItem from="1611814724173" duration="21491000" />
+      <workItem from="1611814724173" duration="46411000" />
+      <workItem from="1611927213963" duration="13206000" />
+      <workItem from="1612031216413" duration="2463000" />
+      <workItem from="1612166542534" duration="1438000" />
     </task>
     <servers />
   </component>
@@ -105,23 +114,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="610" y="161" key="FileChooserDialogImpl" timestamp="1611642204272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="610" y="161" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611642204272" />
-    <state x="961" y="134" key="NewPhpClassDialog" timestamp="1611815136331">
+    <state x="961" y="134" key="NewPhpClassDialog" timestamp="1611927548363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="961" y="134" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1611815136331" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611814970208">
+    <state x="961" y="134" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1611927548363" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1611927560232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1611814970208" />
-    <state x="694" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611823571596">
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1611927560232" />
+    <state x="694" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611921377714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="694" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611823571596" />
+    <state x="694" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611921377714" />
   </component>
 </project>
