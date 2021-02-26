@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22e4444-4f7d-48ca-a078-ea3a3241416e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/new-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/new-task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pages/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/home.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/pages/new-task.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/pages/new-task.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,10 @@
       <workItem from="1611814724173" duration="46411000" />
       <workItem from="1611927213963" duration="13206000" />
       <workItem from="1612031216413" duration="2463000" />
-      <workItem from="1612166542534" duration="18229000" />
+      <workItem from="1612166542534" duration="19486000" />
+      <workItem from="1612202453154" duration="41000" />
+      <workItem from="1612253340700" duration="608000" />
+      <workItem from="1614333382290" duration="982000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@ class DB
 {
     private static $connections = 'mysql:host=127.0.0.1'; //arba localhost rasyti
     private static $user = 'root';
-    private static $password = '';
+    private static $password = 'manomysql';
     private static $database = 'to_do_list';
     private static $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
